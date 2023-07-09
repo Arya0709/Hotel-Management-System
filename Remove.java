@@ -224,7 +224,7 @@ public class Remove extends JFrame implements ActionListener {
                 C.s.executeUpdate(query);
                 JOptionPane.showMessageDialog(null, "Customer Details Deleted Successfully");
                 setVisible(false);
-                new Home();
+                new Customer();
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -235,7 +235,7 @@ public class Remove extends JFrame implements ActionListener {
                 C.s.executeUpdate(query);
                 JOptionPane.showMessageDialog(null, "Employee Details Deleted Successfully");
                 setVisible(false);
-                new Home();
+                new Admin();
             }catch (Exception e) {
                 e.printStackTrace();
             }
