@@ -306,7 +306,7 @@ public class Update extends JFrame implements ActionListener {
                 C.s.executeUpdate(query);
                 JOptionPane.showMessageDialog(null,"Details Updated Successfully");
                 setVisible(false);
-                new Customer();
+                new Admin();
             } catch (Exception e) {
                 e.printStackTrace();
             }
